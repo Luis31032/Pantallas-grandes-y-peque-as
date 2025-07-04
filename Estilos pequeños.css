@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+}
+
+h1 {
+	text-align: Center;
+}
+
+main {
+	padding: 15px;
+}
+
+.caja {
+	margin: 10px auto;
+	height: 100px;
+}
+
+.caja1 {
+	width: 100px;
+	background-color: pink;
+}
+
+.caja2 {
+	width: 200px;
+	background-color: purple;
+}
+
+@media screen and (min-width: 767px) {
+	.caja1 {
+		width: 40%;
+	}
+	
+	.caja2 {
+		width: 80%;
+	}
+	
+}
